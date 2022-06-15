@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MainCamera : MonoBehaviour
+
 {
+
+    public GameObject Player;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +17,8 @@ public class MainCamera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+        transform.position = new Vector3(Player.transform.position.x, transform.position.y, transform.position.z);
+
     }
 }
