@@ -287,9 +287,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34efc15f283663c4f96b5eab196d61f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  target: {fileID: 376397238}
-  minimumDistance: 2
+  player: {fileID: 376397238}
+  agroRange: 6
+  moveSpeed: 2
 --- !u!61 &992472583
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -316,27 +316,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6, y: 1.8}
   m_EdgeRadius: 0
---- !u!50 &992472584
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 992472581}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &1201261398
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,7 +542,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8363261225706177272, guid: 108c51af55bb592499f571c46a6355f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2
+      value: -2.2
       objectReference: {fileID: 0}
     - target: {fileID: 8363261225706177272, guid: 108c51af55bb592499f571c46a6355f3, type: 3}
       propertyPath: m_LocalPosition.z
