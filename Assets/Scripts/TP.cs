@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Burst.CompilerServices;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TP : MonoBehaviour
 {
@@ -14,12 +15,12 @@ public class TP : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnCollisionEnter2D(Collision2D Colider)
     {
 
-        if (collision.gameObject.tag == "Enemy")
+        if (Colider.gameObject.name == "Charachter")
         {
-           player.transform.position = new Vector3(-9.7f, 1.9f, 0f);
+            SceneManager.LoadScene("EndScreen");
         }
     }
 }
