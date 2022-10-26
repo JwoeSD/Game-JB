@@ -6,7 +6,7 @@ public class Playermovement : MonoBehaviour
 {
 
     public float MovementSpeed = 5;
-    public float JumpForce = 3;  
+    public float JumpForce = 5;  
     private Rigidbody2D _rigidbody;
 
     // Start is called before the first frame update
