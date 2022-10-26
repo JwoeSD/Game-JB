@@ -19,10 +19,14 @@ MonoBehaviour:
     width: 1206.4
     height: 715.2
   m_ShowMode: 4
+<<<<<<< HEAD
   m_Title: Project
 <<<<<<< HEAD
   m_RootView: {fileID: 2}
 =======
+=======
+  m_Title: Inspector
+>>>>>>> brandon
   m_RootView: {fileID: 6}
 >>>>>>> brandon
   m_MinSize: {x: 875, y: 300}
@@ -52,7 +56,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 101
+  controlID: 95
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -72,8 +76,8 @@ MonoBehaviour:
     y: 0
     width: 285.60004
     height: 665.2
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -268,7 +272,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 64
+  controlID: 83
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -293,7 +297,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 65
+  controlID: 84
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -362,36 +366,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\bran3\Documents\Game-JB
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 68610000
-    m_LastClickedID: 24936
-    m_ExpandedIDs: 00000000586100005a6100005c6100006861000000ca9a3b
+    m_SelectedIDs: 80610000
+    m_LastClickedID: 24960
+    m_ExpandedIDs: 000000007061000072610000746100008261000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Game
+      m_OriginalName: Game
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 24972
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -405,7 +409,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000586100005a6100005c610000
+    m_ExpandedIDs: 00000000706100007261000074610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -432,7 +436,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -449,7 +453,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -534,6 +538,7 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: f2f1ffff
       m_LastClickedID: -3598
       m_ExpandedIDs: 7ef6ffffb4f7ffff2cfbffff745f00003e7b00006e7b0000
@@ -541,6 +546,11 @@ MonoBehaviour:
       m_SelectedIDs: 18f5ffff
       m_LastClickedID: -2792
       m_ExpandedIDs: 20f8ffff50f8ffff7ef8ffffc0f8ffff1cfaffff10fbffff
+>>>>>>> brandon
+=======
+      m_SelectedIDs: 8ec5ffff
+      m_LastClickedID: -14962
+      m_ExpandedIDs: a6c6ffff36f0ffff88f0ffff50f1ffffb0f1ffffa4f4ffff62f6ffff10fbffff388b0000
 >>>>>>> brandon
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -557,7 +567,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -813,6 +823,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 6.600678, y: 12.596198, z: 11.835136}
     speed: 2
     m_Value: {x: 6.600678, y: 12.596198, z: 11.835136}
@@ -820,6 +831,11 @@ MonoBehaviour:
     m_Target: {x: 1.2782652, y: -2.240588, z: 0.02680161}
     speed: 2
     m_Value: {x: 1.2782652, y: -2.240588, z: 0.02680161}
+>>>>>>> brandon
+=======
+    m_Target: {x: 298.70074, y: 171.66542, z: -1.8217283}
+    speed: 2
+    m_Value: {x: 298.70074, y: 171.66542, z: -1.8217283}
 >>>>>>> brandon
   m_RenderMode: 0
   m_CameraMode:
@@ -872,6 +888,7 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 18.949135
     speed: 2
     m_Value: 18.949135
@@ -879,6 +896,11 @@ MonoBehaviour:
     m_Target: 7.3198385
     speed: 2
     m_Value: 7.3198385
+>>>>>>> brandon
+=======
+    m_Target: 192.17278
+    speed: 2
+    m_Value: 201.22804
 >>>>>>> brandon
   m_Ortho:
     m_Target: 1
@@ -965,7 +987,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
