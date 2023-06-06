@@ -31,4 +31,8 @@ public class Playermovement : MonoBehaviour
 
 
 }
+//rigidbody zorgt ervoor dat het object physica heeft//
+//var movement zorgt ervoor dat de speler bepaalde acties/bewegingen kan gebruikt worden//
+//input.getbuttondown zorgt ervoor dat het functie "jump" wordt uitgevoerd door middel van een knop/toets//
+
     
