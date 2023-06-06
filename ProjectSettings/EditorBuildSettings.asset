@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/start menu.unity
+    guid: c97fa82a78726df40a21bf6b460e40b1
+  - enabled: 1
+    path: Assets/Scenes/LevelSelect.unity
+    guid: b340e55f8316c43408443dc4e4f34efe
+  - enabled: 1
+    path: Assets/Scenes/BrandonTestScene.unity
+    guid: be3d67da5d056fd4fa5969902b0e6bc4
+  - enabled: 1
+    path: Assets/Scenes/EndScreen.unity
+    guid: dfbc8f7367016a54eaf3722ed81f3b8c
   m_configObjects: {}
